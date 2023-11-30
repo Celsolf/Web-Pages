@@ -1,0 +1,98 @@
+/* Estilos página principal */
+:root {
+  --cor-laranja: #df924f;
+  --cor-esverdeada: #6bcc90;
+  --cor-h1: rgb(53, 65, 61);
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Cabeçalho */
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  margin: 0;
+  color: var(--cor-h1);
+}
+
+/* Navegação e Links*/
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: var(--cor-laranja);
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+  color: var(--cor-esverdeada);
+}
+
+/* Seções */
+section {
+  margin-bottom: 30px;
+}
+
+article {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: var(--cor-esverdeada);
+}
+
+p {
+  color: #666;
+  text-align: justify;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.imagens {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.imagens img {
+  width: 23%;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Rodapé */
+footer {
+  text-align: center;
+  padding: 7px;
+  background-color: #333;
+}
+
+footer > p {
+  text-align: center;
+  color: rgb(172, 171, 171);
+}
